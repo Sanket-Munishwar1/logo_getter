@@ -1,0 +1,24 @@
+{
+  "name": "logo_getter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "logo-scrape": "^1.1.0",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7",
+    "puppeteer": "^22.6.3",
+    "sharp": "^0.33.3"
+  }
+}
